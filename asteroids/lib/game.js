@@ -24,7 +24,7 @@ Game.prototype.draw = function draw(ctx) {
 };
 
 Game.prototype.moveObjects = function moveObjects() {
-  // this.asteroids.forEach((asteroid) => asteroid.move());
+  this.asteroids.forEach((asteroid) => asteroid.move());
 };
 
 module.exports = Game;
